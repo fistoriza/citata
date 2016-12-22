@@ -28,16 +28,17 @@
 .slogan {
   font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
-  padding-top: 26px;
+  padding-top: 27px;
   color: #013A4D;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .links a {
     font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     color: #013A4D;
     border-bottom: 1px solid #013A4D;
+    font-weight: bold;
 }
 
 .links {
@@ -46,4 +47,16 @@
 
 hr {
     clear:both;
+}
+
+h1 {
+    font-family: 'robotoregular', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'robotoregular', sans-serif;
+    font-style: italic;
+    font-size: 18px;
 }
