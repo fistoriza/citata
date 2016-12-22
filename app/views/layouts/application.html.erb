@@ -29,7 +29,21 @@
   <hr />
   <br class="clear" />
 
-<%= yield %>
+  <div class="container">
+    <%= yield %>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="col-xs-6">
+        <%= link_to 'Fisto Corporation', '#', class: 'next-quote' %>
+      </div>
+      <div class="col-xs-6 footer-blurb">
+        Created by <a href="http://fisto.blog">Fisto Riza Satianto</a>.
+      </div>
+    </div>
+  </div>
+
 
 </body>
 </html>
