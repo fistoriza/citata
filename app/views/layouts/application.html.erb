@@ -20,11 +20,12 @@
         </div>
       <% end %>
     </div>
-    <div class="col-xs-5 slogan">
+    <div class="col-sm-6 hidden-xs slogan">
       Citata, thousands of inspirations from the best technology quotes from around the globe.
     </div>
-    <div class="col-xs-5 links">
+    <div class="col-xs-4 col-xs-offset-1 col-sm-offset-0 col-sm-4 links">
       <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
+      &nbsp;&nbsp;
       <%= link_to 'About Me', about_path %>
     </div>
   </header>
@@ -41,8 +42,9 @@
         </div>
         <%= simple_form_for Quote.new do |f| %>
           <div class="modal-body">
-            <%= f.input :saying %>
-            <%= f.input :author %>
+            <%= f.input :saying, label: "What is the saying you want to add?", placeholder: "Fear is the disease. Hustle is the antidote." %>
+            <br />
+            <%= f.input :author, label: "Who is the author?", placeholder: "Travis Kalanick" %>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -67,7 +69,7 @@
 
   <div class="footer">
     <div class="container">
-      <div class="col-xs-12 links_footer">
+      <div class="col-xs-12 links_footer footer-blurp">
         Owned by <%= link_to 'Luna Bima Corporation', root_path, class: 'next-quote' %>
         <br />
         Created by <a href="http://fisto.blog">Fisto Riza Satianto</a>.
