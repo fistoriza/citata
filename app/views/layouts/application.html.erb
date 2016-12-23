@@ -9,20 +9,22 @@
 <body>
   <header>
     <div class="col-xs-2">
-      <div class="circle">
-        <br />
-        INSPIRE
-        <br />
-        THE
-        <br />
-        WORLD
-      </div>
+      <%= link_to root_path, class: 'logo' do %>
+        <div class="circle">
+          <br />
+          INSPIRE
+          <br />
+          THE
+          <br />
+          WORLD
+        </div>
+      <% end %>
     </div>
     <div class="col-xs-5 slogan">
       Citata, thousands of inspirations from the best technology quotes from around the globe.
     </div>
     <div class="col-xs-5 links">
-      <%= link_to 'Contribute', '#' %>
+      <%= link_to 'Contribute', new_quote_path %>
       <%= link_to 'About Me', '#' %>
     </div>
   </header>
@@ -35,10 +37,9 @@
 
   <div class="footer">
     <div class="container">
-      <div class="col-xs-6">
-        <%= link_to 'Fisto Corporation', '#', class: 'next-quote' %>
-      </div>
-      <div class="col-xs-6 footer-blurb">
+      <div class="col-xs-12 links_footer">
+        Owned by <%= link_to 'Luna Bima Corporation', root_path, class: 'next-quote' %>
+        <br />
         Created by <a href="http://fisto.blog">Fisto Riza Satianto</a>.
       </div>
     </div>

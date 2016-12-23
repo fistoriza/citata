@@ -10,7 +10,7 @@
     font-style: italic;
     position: relative;
     border-radius: 100%;
-    background: #0E1DC7;
+    background: #013A4D;
     border: 1px solid #F7F7F7;
     width: 80px;
     height: 80px;
@@ -31,6 +31,7 @@
   padding-top: 27px;
   color: #013A4D;
   font-size: 20px;
+  padding-bottom: 10px;
 }
 
 .links a {
@@ -39,6 +40,18 @@
     color: #013A4D;
     border-bottom: 1px solid #013A4D;
     font-weight: bold;
+}
+
+.links_footer a {
+    font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #013A4D;
+    border-bottom: 1px solid #013A4D;
+    font-weight: bold;
+}
+
+.links_footer {
+    text-align: center;
 }
 
 .links {
@@ -72,4 +85,14 @@ h2 {
     font-size: 14px;
     font-family: 'robotoregular', sans-serif;
     text-align: right;
+    color: #013A4D;
+}
+
+.container {
+    margin-left: 0;
+    width: auto;
+}
+
+.logo hover {
+    text-decoration:none;
 }
